@@ -33,8 +33,7 @@ namespace NewInCSharp8
             < 0 => "Negative",
             > 0 => "Positive",
             0 => "Zero",
-            double.NaN => "Not a number",
-            _ => throw new ArgumentException("Unknown double number ")
+            double.NaN => "Not a number"
         };
     }
 }

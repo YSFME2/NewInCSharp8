@@ -11,7 +11,7 @@
         }
         public void Change()
         {
-            X = 0;
+            X = 0; 
             Y = 0;
         }
     }
